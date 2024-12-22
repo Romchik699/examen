@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    width: 1250px;
+    margin: 0 auto;
+    font-family: Oswald;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 4FR 3FR;
+    box-shadow: 0 0 10px #333333;
+    margin-bottom: 125px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 30px;
+    position: relative;
+    top: 30px;
+    color: rgb(0, 0, 0);
+
+}
+
+header a h1 {
+    text-decoration: none;
+    margin: 20px 30px;
+    color: rgb(0, 0, 0);
+}
+
+#main {
+    height: 900px;
+}
+
+#main-div {
+    background-color: rgb(37, 33, 33);
+    width: 600px;
+    height: 300px;
+    padding: 25px;
+}
+
+#main-div h1 {
+    font-size: 37px;
+    margin-top: 0;
+    color: aliceblue;
+
+}
+
+#main-div p {
+    font-size: 37px;
+    margin-top: 0;
+    color: aliceblue;
+
+
+}
+
+#img-main {
+    width: 1000px;
+    position: relative;
+    z-index: -1;
+    top: -200px;
+    left: 250px;
+    border-radius: 50px;
+
+
+}
+
+#div-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    bottom: 350px;
+
+}
+
+
+#div-grid a {
+    text-decoration: none;
+    color: aliceblue;
+    background: #333333;
+    padding: 25px;
+
+}
+
+#second-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#second-section article p {
+    font-size: 20px;
+    margin-top: 0;
+
+}
+
+#img-maining {
+    position: relative;
+    left: 150px;
+    box-shadow: 0 0 10px #333333;
+}
+
+#uragan {
+    display: grid;
+    grid-template-columns: 6fr 8fr;
+    margin-top: 150px;
+
+}
+
+#uragan img {
+    position: relative;
+    left: 200px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px #333333;
+}
+
+#grisa p {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+#grisa h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #333333;
+    color: aliceblue;
+}
+
+footer h5,
+footer p {
+    text-align: center;
+}
+
+#FAQ {
+    padding: 50px;
+    padding-top: 0;
+}
+
+#FAQ article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 35px;
+    box-shadow: 0 0 10px #333333;
+    padding: 25px;
+    padding-top: 100px;
+    position: relative;
+    z-index: -1;
+}
+
+#FAQ h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    top: 115px;
+}
